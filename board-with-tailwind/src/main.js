@@ -6,7 +6,7 @@ import router from './router'
 
 import 'normalize.css'
 import './assets/main.css'
-import './styles/index.css'
+import './styles/index.scss'
 
 
 const app = createApp(App)
