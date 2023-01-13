@@ -1,14 +1,17 @@
-
 <template>
   <div class="about">
-    <h1>This is an home page</h1>
+    <component :is="layout">
+      <h1>This is an home page</h1>
+    </component>
   </div>
 </template>
 
-<style scoped>
-
-.about{
-  @apply text-red-400
+<script>
+export default {
+  computed: {
+    layout() {
+      return this.$route.meta.layout
+    }
+  }
 }
-
-</style>
+</script>
