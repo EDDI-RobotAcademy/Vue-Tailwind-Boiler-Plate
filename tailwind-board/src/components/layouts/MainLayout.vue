@@ -1,5 +1,5 @@
-<script setup>
-import MainHeader from '../sections/MainHeader.vue'
+<script setup lang="ts">
+import MainHeader from '@/components/sections/MainHeader.vue'
 import Footer from "@/components/sections/Footer.vue";
 </script>
 
@@ -8,7 +8,3 @@ import Footer from "@/components/sections/Footer.vue";
   <slot/>
   <Footer/>
 </template>
-
-<script>
-export default {}
-</script>

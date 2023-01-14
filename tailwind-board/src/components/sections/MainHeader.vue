@@ -42,7 +42,7 @@
         <div class="flex justify-center md:block">
           <a class="relative text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-300"
              href="#">
-            <AlarmIcon/>
+            <AlarmIcon width="20" height="20"/>
 
             <span class="absolute top-0 left-0 p-1 text-xs text-white bg-blue-500 rounded-full"></span>
           </a>
