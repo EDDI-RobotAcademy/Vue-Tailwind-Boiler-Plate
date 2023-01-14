@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <component :is="layout">
-      <h1>This is an home page</h1>
+      <h1 class="">This is an home page</h1>
     </component>
   </div>
 </template>
