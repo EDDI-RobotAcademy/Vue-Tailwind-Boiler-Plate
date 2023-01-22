@@ -5,14 +5,7 @@ defineProps<{
 </script>
 
 <template>
-  <div class="hello">
+  <div class="font-bold text-red-500 text-4xl">
     {{ message }}
   </div>
 </template>
-
-<style scoped>
-.hello {
-  font-size: 24px;
-  color: #00bebe;
-}
-</style>
